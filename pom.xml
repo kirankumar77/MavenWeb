@@ -116,6 +116,23 @@
 		</plugins>
 
 	</build>
+  <servers>
+	<server>
+    <id>thirdparty</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+    </server>
+    <server>
+      <id>InternalReleases</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+    </server>
+    <server>
+      <id>InternalSnapshots</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+    </server>
+  </servers>
 <distributionManagement>
     <snapshotRepository>
         <id>InternalSnapshots</id>
