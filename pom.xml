@@ -123,7 +123,7 @@
 
 		</plugins>
 	</build>
-<finalName>CounterWebApp.war</finalName> 
+<outputFileNameMapping>CounterWebApp</outputFileNameMapping>
 <distributionManagement>
     <repository>
         <id>InternalReleases</id>
