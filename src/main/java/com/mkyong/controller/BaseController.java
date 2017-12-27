@@ -17,7 +17,7 @@ public class BaseController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome(ModelMap model) {
 
-		model.addAttribute("message", "Welcome suneel for");
+		model.addAttribute("message", "Welcome suneel for test");
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);
 
